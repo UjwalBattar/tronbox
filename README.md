@@ -224,7 +224,7 @@ npm i -g lerna
 ```
 4. Bootstrap the project:
 ```
-lerna bootstrap
+yarn bootstrap
 ```
 5. During the development, for better debugging, you can run the unbuilt version of TronBox, for example
 ```
