@@ -20,8 +20,7 @@
     "require-nocache": "^1.0.0",
     "solc": "0.4.24",
     "temp": "^0.8.3",
-    "truffle-blockchain-utils": "^0.0.5",
-    "web3": "0.20.7"
+    "truffle-blockchain-utils": "^0.0.5"
   },
   "dependencies": {
     "async": "2.6.1",
