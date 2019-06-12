@@ -222,11 +222,11 @@ nvm install v8.16.0
 nvm use v8.16.0
 npm i -g lerna
 ```
-4. Bootstrap the project:
+4. Bootstrap and build the project:
 ```
 yarn bootstrap
 ```
-5. During the development, for better debugging, you can run the unbuilt version of TronBox, for example
+6. During the development, for better debugging, you can run the unbuilt version of TronBox, for example
 ```
 ./tronbox.dev migrate --reset
 ```
