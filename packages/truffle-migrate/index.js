@@ -4,7 +4,6 @@ var path = require("path");
 var ResolverIntercept = require("./resolverintercept");
 var Require = require("truffle-require");
 var async = require("async");
-// var Web3 = require("web3-mock");
 var expect = require("truffle-expect");
 var Deployer = require("truffle-deployer");
 var chalk = require("chalk")
@@ -25,10 +24,6 @@ function sleep(millis) {
 Migration.prototype.run = function (options, callback) {
   var self = this;
   var logger = options.logger;
-
-  // var web3 = new Web3();
-  // require("TronWrap").ext(web3);
-  // TronWrap.setHttpProvider(options.network_config.host + "");
 
   logger.log("Running migration: " + path.relative(options.migrations_directory, this.file));
 
