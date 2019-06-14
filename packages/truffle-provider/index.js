@@ -71,7 +71,7 @@ module.exports = {
     }
     return this.wrap(provider, options);
   },
-
+  
   test_connection: function(provider, callback) {
     callback(null, true)
   }
