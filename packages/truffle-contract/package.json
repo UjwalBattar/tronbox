@@ -29,7 +29,8 @@
     "truffle-blockchain-utils": "^0.0.5",
     "truffle-contract-schema": "^2.0.1",
     "truffle-error": "^0.0.3",
-    "bignumber.js": "^7.2.1"
+    "bignumber.js": "^7.2.1",
+    "web3-mock": "1.0.0"
   },
   "devDependencies": {
     "async": "2.6.1",
